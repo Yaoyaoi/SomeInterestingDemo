@@ -4,3 +4,8 @@
 ##Project 1 AnimatedSplash
 * 实现了Facebook的开启动画。   
 * 把小鸟当成 Mask 来用，用CAKeyframeAnimation，设定3个Bounds的值，进行过渡就可以实现放大动画
+
+##Project 2 GetMyLocation
+* 实现了显示用户经纬度以及国家省份城市的功能（注：在国外无法使用，我也不知道为啥）
+* 使用了CoreLocation Framework
+* 需要在info.plist中添加Privacy - Location Always Usage Description 和Privacy - Location When In Use Usage Description来获取定位的许可，并且在Background Modes 中勾选Location updates。
