@@ -10,10 +10,6 @@
 #import "rootViewController.h"
 
 @interface AppDelegate ()<CAAnimationDelegate>
-{
-    CALayer* _mask;
-    UIImageView* _imageView;
-}
 
 @end
 
