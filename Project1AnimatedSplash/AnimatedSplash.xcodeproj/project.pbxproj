@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535725E1E0398680064DCDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535725D1E0398680064DCDA /* main.m */; };
+		053572611E0398680064DCDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053572601E0398680064DCDA /* AppDelegate.m */; };
+		053572671E0398680064DCDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053572651E0398680064DCDA /* Main.storyboard */; };
+		053572691E0398680064DCDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053572681E0398680064DCDA /* Assets.xcassets */; };
+		0535726C1E0398680064DCDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0535726A1E0398680064DCDA /* LaunchScreen.storyboard */; };
+		053572771E0398680064DCDA /* AnimatedSplashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053572761E0398680064DCDA /* AnimatedSplashTests.m */; };
+		053572821E0398680064DCDA /* AnimatedSplashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053572811E0398680064DCDA /* AnimatedSplashUITests.m */; };
+		058C2D571E03CE7B00AA4B95 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058C2D561E03CE7B00AA4B95 /* rootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053572731E0398680064DCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053572511E0398680064DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053572581E0398680064DCDA;
+			remoteInfo = AnimatedSplash;
+		};
+		0535727E1E0398680064DCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053572511E0398680064DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053572581E0398680064DCDA;
+			remoteInfo = AnimatedSplash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053572591E0398680064DCDA /* AnimatedSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0535725D1E0398680064DCDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0535725F1E0398680064DCDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		053572601E0398680064DCDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		053572661E0398680064DCDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		053572681E0398680064DCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0535726B1E0398680064DCDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0535726D1E0398680064DCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053572721E0398680064DCDA /* AnimatedSplashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedSplashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		053572761E0398680064DCDA /* AnimatedSplashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedSplashTests.m; sourceTree = "<group>"; };
+		053572781E0398680064DCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0535727D1E0398680064DCDA /* AnimatedSplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedSplashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		053572811E0398680064DCDA /* AnimatedSplashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedSplashUITests.m; sourceTree = "<group>"; };
+		053572831E0398680064DCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058C2D551E03CE7B00AA4B95 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		058C2D561E03CE7B00AA4B95 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053572561E0398680064DCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535726F1E0398680064DCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535727A1E0398680064DCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053572501E0398680064DCDA = {
+			isa = PBXGroup;
+			children = (
+				0535725B1E0398680064DCDA /* AnimatedSplash */,
+				053572751E0398680064DCDA /* AnimatedSplashTests */,
+				053572801E0398680064DCDA /* AnimatedSplashUITests */,
+				0535725A1E0398680064DCDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0535725A1E0398680064DCDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053572591E0398680064DCDA /* AnimatedSplash.app */,
+				053572721E0398680064DCDA /* AnimatedSplashTests.xctest */,
+				0535727D1E0398680064DCDA /* AnimatedSplashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0535725B1E0398680064DCDA /* AnimatedSplash */ = {
+			isa = PBXGroup;
+			children = (
+				0535725F1E0398680064DCDA /* AppDelegate.h */,
+				053572601E0398680064DCDA /* AppDelegate.m */,
+				058C2D551E03CE7B00AA4B95 /* rootViewController.h */,
+				058C2D561E03CE7B00AA4B95 /* rootViewController.m */,
+				053572651E0398680064DCDA /* Main.storyboard */,
+				053572681E0398680064DCDA /* Assets.xcassets */,
+				0535726A1E0398680064DCDA /* LaunchScreen.storyboard */,
+				0535726D1E0398680064DCDA /* Info.plist */,
+				0535725C1E0398680064DCDA /* Supporting Files */,
+			);
+			path = AnimatedSplash;
+			sourceTree = "<group>";
+		};
+		0535725C1E0398680064DCDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0535725D1E0398680064DCDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053572751E0398680064DCDA /* AnimatedSplashTests */ = {
+			isa = PBXGroup;
+			children = (
+				053572761E0398680064DCDA /* AnimatedSplashTests.m */,
+				053572781E0398680064DCDA /* Info.plist */,
+			);
+			path = AnimatedSplashTests;
+			sourceTree = "<group>";
+		};
+		053572801E0398680064DCDA /* AnimatedSplashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				053572811E0398680064DCDA /* AnimatedSplashUITests.m */,
+				053572831E0398680064DCDA /* Info.plist */,
+			);
+			path = AnimatedSplashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053572581E0398680064DCDA /* AnimatedSplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053572861E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplash" */;
+			buildPhases = (
+				053572551E0398680064DCDA /* Sources */,
+				053572561E0398680064DCDA /* Frameworks */,
+				053572571E0398680064DCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedSplash;
+			productName = AnimatedSplash;
+			productReference = 053572591E0398680064DCDA /* AnimatedSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053572711E0398680064DCDA /* AnimatedSplashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053572891E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplashTests" */;
+			buildPhases = (
+				0535726E1E0398680064DCDA /* Sources */,
+				0535726F1E0398680064DCDA /* Frameworks */,
+				053572701E0398680064DCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053572741E0398680064DCDA /* PBXTargetDependency */,
+			);
+			name = AnimatedSplashTests;
+			productName = AnimatedSplashTests;
+			productReference = 053572721E0398680064DCDA /* AnimatedSplashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0535727C1E0398680064DCDA /* AnimatedSplashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0535728C1E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplashUITests" */;
+			buildPhases = (
+				053572791E0398680064DCDA /* Sources */,
+				0535727A1E0398680064DCDA /* Frameworks */,
+				0535727B1E0398680064DCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0535727F1E0398680064DCDA /* PBXTargetDependency */,
+			);
+			name = AnimatedSplashUITests;
+			productName = AnimatedSplashUITests;
+			productReference = 0535727D1E0398680064DCDA /* AnimatedSplashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053572511E0398680064DCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yaoyaoi;
+				TargetAttributes = {
+					053572581E0398680064DCDA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 63K2TD6THT;
+						ProvisioningStyle = Automatic;
+					};
+					053572711E0398680064DCDA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 63K2TD6THT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 053572581E0398680064DCDA;
+					};
+					0535727C1E0398680064DCDA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 63K2TD6THT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 053572581E0398680064DCDA;
+					};
+				};
+			};
+			buildConfigurationList = 053572541E0398680064DCDA /* Build configuration list for PBXProject "AnimatedSplash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 053572501E0398680064DCDA;
+			productRefGroup = 0535725A1E0398680064DCDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053572581E0398680064DCDA /* AnimatedSplash */,
+				053572711E0398680064DCDA /* AnimatedSplashTests */,
+				0535727C1E0398680064DCDA /* AnimatedSplashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053572571E0398680064DCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535726C1E0398680064DCDA /* LaunchScreen.storyboard in Resources */,
+				053572691E0398680064DCDA /* Assets.xcassets in Resources */,
+				053572671E0398680064DCDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053572701E0398680064DCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535727B1E0398680064DCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053572551E0398680064DCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053572611E0398680064DCDA /* AppDelegate.m in Sources */,
+				058C2D571E03CE7B00AA4B95 /* rootViewController.m in Sources */,
+				0535725E1E0398680064DCDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535726E1E0398680064DCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053572771E0398680064DCDA /* AnimatedSplashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053572791E0398680064DCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053572821E0398680064DCDA /* AnimatedSplashUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053572741E0398680064DCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053572581E0398680064DCDA /* AnimatedSplash */;
+			targetProxy = 053572731E0398680064DCDA /* PBXContainerItemProxy */;
+		};
+		0535727F1E0398680064DCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053572581E0398680064DCDA /* AnimatedSplash */;
+			targetProxy = 0535727E1E0398680064DCDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		053572651E0398680064DCDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053572661E0398680064DCDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0535726A1E0398680064DCDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535726B1E0398680064DCDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		053572841E0398680064DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		053572851E0398680064DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		053572871E0398680064DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		053572881E0398680064DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0535728A1E0398680064DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedSplash.app/AnimatedSplash";
+			};
+			name = Debug;
+		};
+		0535728B1E0398680064DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedSplash.app/AnimatedSplash";
+			};
+			name = Release;
+		};
+		0535728D1E0398680064DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimatedSplash;
+			};
+			name = Debug;
+		};
+		0535728E1E0398680064DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 63K2TD6THT;
+				INFOPLIST_FILE = AnimatedSplashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HRK.AnimatedSplashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimatedSplash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053572541E0398680064DCDA /* Build configuration list for PBXProject "AnimatedSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053572841E0398680064DCDA /* Debug */,
+				053572851E0398680064DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053572861E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053572871E0398680064DCDA /* Debug */,
+				053572881E0398680064DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053572891E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535728A1E0398680064DCDA /* Debug */,
+				0535728B1E0398680064DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0535728C1E0398680064DCDA /* Build configuration list for PBXNativeTarget "AnimatedSplashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535728D1E0398680064DCDA /* Debug */,
+				0535728E1E0398680064DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053572511E0398680064DCDA /* Project object */;
+}
