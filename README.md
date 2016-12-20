@@ -9,3 +9,6 @@
 * 实现了显示用户经纬度以及国家省份城市的功能（注：在国外无法使用，我也不知道为啥）
 * 使用了CoreLocation Framework
 * 需要在info.plist中添加Privacy - Location Always Usage Description 和Privacy - Location When In Use Usage Description来获取定位的许可，并且在Background Modes 中勾选Location updates。
+
+##Project 3 SetTheDate
+* 学习了UIDatePicker的使用
