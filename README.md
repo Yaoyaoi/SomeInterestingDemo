@@ -12,3 +12,8 @@
 
 ##Project 3 SetTheDate
 * 学习了UIDatePicker的使用
+
+##Project 4 SearchBooks
+* 学习了AFNetworking和SDWebImage库的使用
+* 利用了豆瓣的api
+* 实现了在豆瓣上搜索图书的功能
