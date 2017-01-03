@@ -15,5 +15,9 @@
 
 ##Project 4 SearchBooks
 * 学习了AFNetworking和SDWebImage库的使用
-* 利用了豆瓣的api
+* 使用了豆瓣的api
 * 实现了在豆瓣上搜索图书的功能
+
+##Project 5 VideoBackground
+* 使用了UIWebView显示gif
+* UIWebView无法改变gif的大小，需要将gif做成屏幕大小
